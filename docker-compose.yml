@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+    blackcube:
+        container_name: blackcube
+        restart: unless-stopped
+        environment:
+            - NODE_ENV=production
+            - token=
+            - guildId=
+            - clientId=
+            - mongoIp=
+        image: p0rtl/blackcube
