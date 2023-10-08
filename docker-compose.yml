@@ -4,7 +4,7 @@ services:
         container_name: blackcube
         restart: unless-stopped
         environment:
-            - NODE_ENV=docker-compose.yml
+            - NODE_ENV=production
             - token=
             - guildId=
             - clientId=
